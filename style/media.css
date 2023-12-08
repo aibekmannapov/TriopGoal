@@ -1,0 +1,813 @@
+@media (max-width: 1200px) {
+  .box3 span {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero3 h2 {
+    width: 350px;
+    font-size: 36px;
+  }
+
+  .hero3 p {
+    width: 350px;
+  }
+
+  .top3 {
+    margin-left: -5px;
+  }
+
+  .find p {
+    margin-left: 200px;
+  }
+
+  .find3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .location2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tt8 {
+    max-width: 700px;
+    height: 400px;
+  }
+
+  .take3 {
+    margin-left: -250px;
+    margin-top: 70px;
+  }
+
+  .tttt {
+    margin-left: 240px;
+    max-width: 80px;
+    margin-top: 320px;
+  }
+  .ttt2 {
+    display: none;
+  }
+
+  .about2 h5 {
+    font-size: 36px;
+    width: 450px;
+  }
+
+  .about2 p {
+    font-size: 14px;
+    width: 350px;
+  }
+
+  .what p {
+    margin-left: 195px;
+  }
+
+  .what2 {
+    margin-left: 240px;
+  }
+
+  .foto {
+    margin-left: 10px;
+    max-width: 950px;
+  }
+
+  .strel {
+    max-width: 970px;
+  }
+  .social2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dd {
+    margin-left: 470px;
+  }
+
+  .not2 {
+    margin-top: 45px;
+  }
+
+  .rrr {
+    max-width: 980px;
+    max-height: 700px;
+    margin-left: -520px;
+  }
+  .take3 h2 {
+    font-size: 36px;
+    width: 320px;
+  }
+
+  .take3 button {
+    margin-top: 20px;
+  }
+
+  .img {
+    width: 390px;
+    margin-left: -400px;
+  }
+
+  .img2 {
+    width: 300px;
+    margin-left: -570px;
+  }
+  .ttt {
+    width: 700px;
+    height: 400px;
+    margin-top: 6px;
+    margin-left: 80px;
+  }
+
+  .take2 {
+    margin-top: 150px;
+    margin-left: -30px;
+  }
+
+  .a {
+    margin-left: -90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box2 {
+    display: none;
+  }
+
+  .box3 span {
+    display: block;
+    margin-left: -10px;
+  }
+  .box3 button {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .hero2 {
+    margin-left: -160px;
+  }
+  .top3 {
+    display: flex;
+    max-width: 700px;
+    max-height: 400px;
+    text-align: center;
+    height: 200px;
+    margin-left: 10px;
+    gap: 70px;
+    flex-wrap: wrap;
+  }
+
+  .tt h1 {
+    margin-left: -16px;
+    margin-top: 20px;
+  }
+
+  .tt2 {
+    height: 80px;
+    display: flex;
+    margin-left: 250px;
+    border-radius: 20px;
+    margin-top: -70px;
+  }
+  .find p {
+    margin-left: 80px;
+  }
+  .find3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .location2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .take2 {
+    margin-top: 180px;
+    margin-left: -50px;
+  }
+  .tttt {
+    display: none;
+  }
+  .ttt2 {
+    display: none;
+  }
+  .take3 {
+    margin-left: -320px;
+    margin-top: 120px;
+  }
+  .ttt {
+    margin-left: 114px;
+    margin-top: 56px;
+    width: 400px;
+    height: 400px;
+  }
+  .tt8 {
+    width: 710px;
+    height: 350px;
+  }
+  .take3 h1 {
+    font-size: 10px;
+  }
+
+  .take3 h2 {
+    font-size: 24px;
+    width: 220px;
+
+    margin-top: -10px;
+  }
+  .take3 p {
+    font-size: 16px;
+    margin-top: -10px;
+    font-size: 10px;
+    width: 250px;
+  }
+
+  .take3 button {
+    margin-top: 8px;
+  }
+
+  .what h1 {
+    margin-top: 800px;
+  }
+
+  .about3 {
+    margin-top: 700px;
+  }
+
+  .about2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 120px;
+  }
+
+  .about2 p {
+    margin-left: 50px;
+  }
+  .not5 {
+    margin-left: 75px;
+  }
+
+  .not6 {
+    margin-left: 75px;
+  }
+
+  .what p {
+    margin-left: 60px;
+  }
+
+  .rrr {
+    width: 700px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: -360px;
+  }
+  .social2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .foto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 20px 20px;
+    margin-left: 5px;
+  }
+
+  .strel {
+    width: 700px;
+  }
+  .a {
+    margin-left: -200px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .not2 {
+    margin-left: 10px;
+  }
+
+  .foto2 h2 {
+    font-size: 30px;
+    width: 250px;
+  }
+
+  .what2 {
+    margin-left: 110px;
+  }
+  .dd {
+    margin-left: 338px;
+  }
+  .two5 {
+    margin-left: -260px;
+  }
+
+  .two8 {
+    margin-left: -360px;
+  }
+
+  .two6 {
+    margin-left: 250px;
+  }
+
+  .two3 {
+    margin-left: 250px;
+  }
+
+  .two2 {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .top {
+    width: 350px;
+    margin-left: 90px;
+  }
+
+  .hero3 h1 {
+    margin-top: -100px;
+  }
+
+  .find p {
+    display: flex;
+    text-align: center;
+    margin-left: 0;
+  }
+  .cart2 img {
+    width: 30px;
+    margin-top: 70px;
+  }
+
+  .about {
+    margin-top: 450px;
+  }
+  .ttt {
+    margin-top: 0;
+    margin-left: 30px;
+    width: 450;
+  }
+
+  .take3 {
+    margin-left: -600px;
+    margin-top: 55px;
+  }
+
+  .take2 {
+    margin-top: -220px;
+    margin-left: 160px;
+  }
+  .rrr {
+    width: 420px;
+    height: 400px;
+    margin-left: -230px;
+  }
+
+  .two3 {
+    display: none;
+  }
+  .two4 {
+    display: none;
+  }
+
+  .car h2 {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  .car button {
+    display: flex;
+    padding: 15px 25px;
+  }
+
+  .foto2 {
+    flex-direction: column;
+    text-align: center;
+    margin-top: -80px;
+  }
+
+  .foto2 h2 {
+    margin-left: 80px;
+  }
+
+  .foto {
+    display: flex;
+    width: 420px;
+    height: 700px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .foto3 img {
+    margin-left: -20px;
+    margin-top: 60px;
+  }
+
+  .not2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .a a {
+    margin-left: 283px;
+  }
+  .strel {
+    width: 430px;
+  }
+
+  .foto2 button {
+    padding: 15px 30px;
+  }
+
+  .one {
+    margin-left: -0px;
+  }
+  .two2 {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .two6 {
+    display: none;
+  }
+
+  .two7 {
+    display: none;
+  }
+
+  .two8 {
+    display: none;
+  }
+  .two5 {
+    margin-top: 100px;
+    margin-left: -200px;
+  }
+  .two {
+    margin-left: -70px;
+  }
+  .what2 img {
+    margin-left: 200px;
+  }
+
+  .what2 {
+    margin-left: 0;
+    width: 430px;
+  }
+
+  .dd {
+    margin-left: 195px;
+  }
+
+  .what2 p {
+    margin-left: 35px;
+    text-align: center;
+  }
+
+  .about2 {
+    margin-left: -10px;
+  }
+
+  .about3 {
+    margin-left: 106px;
+  }
+
+  .img {
+    width: 320px;
+  }
+
+  .img2 {
+    width: 250px;
+    margin-left: -550px;
+    margin-top: 180px;
+  }
+  .tt8 {
+    width: 430px;
+    height: 300px;
+  }
+  .what h1 {
+    margin-top: 500px;
+  }
+  .what p {
+    margin-left: 0;
+    width: 400px;
+  }
+  .take3 p {
+    width: 210px;
+  }
+
+  .take3 button {
+    padding: 5px 15px;
+  }
+  .take {
+    width: 430px;
+    margin-top: 00px;
+    background: black;
+    margin-left: 0;
+  }
+  .top3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 430px;
+    height: 200px;
+    gap: 20px;
+  }
+
+  .tt2 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .top2 {
+    width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .top {
+    width: 200px;
+  }
+
+  .hero3 h2 {
+    font-size: 20px;
+    width: 250px;
+    font: optional;
+  }
+
+  .hero3 p {
+    width: 260px;
+    margin-top: 0px;
+  }
+  .hero2 {
+    margin-left: -120px;
+  }
+
+  .tt h1 {
+    margin-left: -10px;
+  }
+  .cart p {
+    width: 380px;
+    margin-left: 40px;
+  }
+  .tor {
+    display: flex;
+    gap: 20px;
+  }
+
+  .tor2 {
+    display: flex;
+    gap: 108px;
+  }
+  .tor h1 {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .rr {
+    width: 290px;
+    margin-left: px;
+  }
+
+  .cart4 {
+    width: 250px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: -108px;
+  }
+
+  .take2 img {
+    width: 50px;
+    margin-top: 80px;
+    margin-left: -50px;
+  }
+
+  .find h1 {
+    margin-top: 40px;
+  }
+  .location h1 {
+    margin-top: -70px;
+  }
+
+  .take {
+    width: 290px;
+    margin-left: -15px;
+  }
+
+  .ttt {
+    width: 300px;
+    margin-left: -10px;
+  }
+
+  .not5 {
+    margin-left: 5px;
+  }
+
+  .not6 {
+    margin-left: 5px;
+  }
+
+  .one {
+    width: 130px;
+    height: 130px;
+  }
+  .one h1 {
+    margin-left: -15px;
+  }
+
+  .one h2 {
+    margin-left: -15px;
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  .about3 {
+    margin-left: 206px;
+    margin-top: 640px;
+  }
+  .what h2 {
+    font-size: 22px;
+  }
+
+  .rrr {
+    width: 280px;
+    margin-left: -160px;
+  }
+
+  .what2 p {
+    width: 270px;
+    margin-left: 0;
+  }
+
+  .what2 img {
+    margin-left: 125px;
+  }
+  .dd {
+    margin-left: 115px;
+  }
+
+  .social h1 {
+    text-align: center;
+  }
+
+  .social2 img {
+    width: 280px;
+  }
+
+  .foto2 h2 {
+    margin-left: -5px;
+  }
+
+  .foto3 img {
+    width: 270px;
+    margin-top: -150px;
+  }
+  .foto {
+    width: 280px;
+    height: 650px;
+    margin-left: -10px;
+  }
+
+  .car h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .strel {
+    width: 270px;
+  }
+
+  .a a {
+    margin-left: 20px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social h1 {
+    margin-top: -80px;
+  }
+
+  .what2 {
+    width: 280px;
+    margin-left: -10px;
+  }
+  .two5 {
+    margin-left: -140px;
+  }
+
+  .two2 {
+    margin-left: 40px;
+  }
+
+  .what p {
+    width: 270px;
+    margin-top: -10px;
+  }
+  .what h1 {
+    margin-top: 280px;
+  }
+  .img2 {
+    width: 160px;
+    margin-left: -490px;
+    margin-top: 120px;
+  }
+
+  .about2 h4 {
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+
+  .about2 p {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .about2 h5 {
+    font-size: 20px;
+    width: 280px;
+  }
+
+  .tt8 {
+    width: 290px;
+    height: 220px;
+    margin-left: -15px;
+    margin-top: -80px;
+  }
+
+  .tor2 h2 {
+    font-size: 12px;
+  }
+
+  .tor2 p {
+    font-size: 16px;
+    margin-left: -27px;
+  }
+
+  .tor img {
+    width: 50px;
+  }
+  .cart2 {
+    margin-top: 150px;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .find h2 {
+    font-size: 30px;
+  }
+
+  .find2 {
+    width: 280px;
+    height: 350px;
+  }
+
+  .find2 p {
+    margin-left: 0;
+  }
+
+  .find2 img {
+    margin-left: -50px;
+    margin-top: -40px;
+  }
+
+  .tt p {
+    margin-left: -15px;
+  }
+
+  .tt2 {
+    margin-top: 310px;
+    margin-left: -220px;
+  }
+
+  .top3 {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 500px;
+    margin-left: 0;
+  }
+
+  .top2 {
+    width: 150px;
+    margin-left: -110px;
+    margin-top: 120px;
+  }
+}
