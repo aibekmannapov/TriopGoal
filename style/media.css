@@ -148,6 +148,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
   }
 
   .hero2 {
@@ -213,7 +214,7 @@
     height: 350px;
   }
   .take3 h1 {
-    font-size: 10px;
+    font-size: 10;
   }
 
   .take3 h2 {
@@ -530,6 +531,292 @@
 
   .top2 {
     width: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top {
+    width: 200px;
+  }
+
+  .hero3 h2 {
+    font-size: 20px;
+    width: 250px;
+    font: optional;
+  }
+
+  .hero3 p {
+    width: 260px;
+    margin-top: 0px;
+  }
+  .hero2 {
+    margin-left: -120px;
+  }
+
+  .tt h1 {
+    margin-left: -10px;
+  }
+  .cart p {
+    width: 380px;
+    margin-left: 40px;
+  }
+  .tor {
+    display: flex;
+    gap: 20px;
+  }
+
+  .tor2 {
+    display: flex;
+    gap: 108px;
+  }
+  .tor h1 {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .rr {
+    width: 290px;
+    margin-left: px;
+  }
+
+  .cart4 {
+    width: 250px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: -108px;
+  }
+
+  .take2 img {
+    width: 50px;
+    margin-top: 80px;
+    margin-left: -50px;
+  }
+
+  .find h1 {
+    margin-top: 40px;
+  }
+  .location h1 {
+    margin-top: -70px;
+  }
+
+  .take {
+    width: 290px;
+    margin-left: -15px;
+  }
+
+  .ttt {
+    width: 300px;
+    margin-left: -10px;
+  }
+
+  .not5 {
+    margin-left: 5px;
+  }
+
+  .not6 {
+    margin-left: 5px;
+  }
+
+  .one {
+    width: 130px;
+    height: 130px;
+  }
+  .one h1 {
+    margin-left: -15px;
+  }
+
+  .one h2 {
+    margin-left: -15px;
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  .about3 {
+    margin-left: 206px;
+    margin-top: 640px;
+  }
+  .what h2 {
+    font-size: 22px;
+  }
+
+  .rrr {
+    width: 280px;
+    margin-left: -160px;
+  }
+
+  .what2 p {
+    width: 270px;
+    margin-left: 0;
+  }
+
+  .what2 img {
+    margin-left: 125px;
+  }
+  .dd {
+    margin-left: 115px;
+  }
+
+  .social h1 {
+    text-align: center;
+  }
+
+  .social2 img {
+    width: 280px;
+  }
+
+  .foto2 h2 {
+    margin-left: -5px;
+  }
+
+  .foto3 img {
+    width: 270px;
+    margin-top: -150px;
+  }
+  .foto {
+    width: 280px;
+    height: 650px;
+    margin-left: -10px;
+  }
+
+  .car h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .strel {
+    width: 270px;
+  }
+
+  .a a {
+    margin-left: 20px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social h1 {
+    margin-top: -80px;
+  }
+
+  .what2 {
+    width: 280px;
+    margin-left: -10px;
+  }
+  .two5 {
+    margin-left: -140px;
+  }
+
+  .two2 {
+    margin-left: 40px;
+  }
+
+  .what p {
+    width: 270px;
+    margin-top: -10px;
+  }
+  .what h1 {
+    margin-top: 280px;
+  }
+  .img2 {
+    width: 160px;
+    margin-left: -490px;
+    margin-top: 120px;
+  }
+
+  .about2 h4 {
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+
+  .about2 p {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .about2 h5 {
+    font-size: 20px;
+    width: 280px;
+  }
+
+  .tt8 {
+    width: 290px;
+    height: 220px;
+    margin-left: -15px;
+    margin-top: -80px;
+  }
+
+  .tor2 h2 {
+    font-size: 12px;
+  }
+
+  .tor2 p {
+    font-size: 16px;
+    margin-left: -27px;
+  }
+
+  .tor img {
+    width: 50px;
+  }
+  .cart2 {
+    margin-top: 150px;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .find h2 {
+    font-size: 30px;
+  }
+
+  .find2 {
+    width: 280px;
+    height: 350px;
+  }
+
+  .find2 p {
+    margin-left: 0;
+  }
+
+  .find2 img {
+    margin-left: -50px;
+    margin-top: -40px;
+  }
+
+  .tt p {
+    margin-left: -15px;
+  }
+
+  .tt2 {
+    margin-top: 310px;
+    margin-left: -220px;
+  }
+
+  .top3 {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 500px;
+    margin-left: 0;
+  }
+
+  .top2 {
+    width: 150px;
+    margin-left: -110px;
+    margin-top: 120px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: self-end;
   }
 }
 
