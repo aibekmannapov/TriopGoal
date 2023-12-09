@@ -159,7 +159,7 @@
     max-width: 700px;
     max-height: 400px;
     text-align: center;
-    height: 200px;
+    max-height: 200px 100%;
     margin-left: 10px;
     gap: 70px;
     flex-wrap: wrap;
@@ -171,7 +171,7 @@
   }
 
   .tt2 {
-    height: 80px;
+    max-height: 80px 100%;
     display: flex;
     margin-left: 250px;
     border-radius: 20px;
@@ -206,12 +206,12 @@
   .ttt {
     margin-left: 114px;
     margin-top: 56px;
-    width: 400px;
-    height: 400px;
+    max-width: 400px 100%;
+    max-height: 400px 100%;
   }
   .tt8 {
-    width: 710px;
-    height: 350px;
+    max-width: 710px 100%;
+    max-height: 350px 100%;
   }
   .take3 h1 {
     font-size: 10;
@@ -219,7 +219,7 @@
 
   .take3 h2 {
     font-size: 24px;
-    width: 220px;
+    max-width: 220px 100%;
 
     margin-top: -10px;
   }
@@ -227,7 +227,7 @@
     font-size: 16px;
     margin-top: -10px;
     font-size: 10px;
-    width: 250px;
+    max-width: 250px 100%;
   }
 
   .take3 button {
@@ -265,8 +265,8 @@
   }
 
   .rrr {
-    width: 700px;
-    height: 500px;
+    max-width: 700px 100%;
+    max-height: 500px 100%;
     margin-top: 40px;
     margin-left: -360px;
   }
@@ -278,13 +278,13 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 700px 100%;
     padding: 20px 20px;
     margin-left: 5px;
   }
 
   .strel {
-    width: 700px;
+    max-width: 700px 100%;
   }
   .a {
     margin-left: -200px;
@@ -302,7 +302,7 @@
 
   .foto2 h2 {
     font-size: 30px;
-    width: 250px;
+    max-width: 250px 100%;
   }
 
   .what2 {
@@ -333,7 +333,7 @@
 }
 @media (max-width: 480px) {
   .top {
-    width: 350px;
+    max-width: 350px 100%;
     margin-left: 90px;
   }
 
@@ -347,7 +347,7 @@
     margin-left: 0;
   }
   .cart2 img {
-    width: 30px;
+    max-width: 30px 100%;
     margin-top: 70px;
   }
 
@@ -357,7 +357,7 @@
   .ttt {
     margin-top: 0;
     margin-left: 30px;
-    width: 450;
+    max-width: 450;
   }
 
   .take3 {
@@ -370,8 +370,8 @@
     margin-left: 160px;
   }
   .rrr {
-    width: 420px;
-    height: 400px;
+    max-width: 420px 100%;
+    max-height: 400px 100%;
     margin-left: -230px;
   }
 
@@ -384,7 +384,7 @@
 
   .car h2 {
     font-size: 30px;
-    width: 300px;
+    max-width: 300px 100%;
   }
 
   .car button {
@@ -404,8 +404,8 @@
 
   .foto {
     display: flex;
-    width: 420px;
-    height: 700px;
+    max-width: 420px 100%;
+    max-height: 700px 100%;
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -425,7 +425,7 @@
     margin-left: 283px;
   }
   .strel {
-    width: 430px;
+    max-width: 430px 100%;
   }
 
   .foto2 button {
@@ -463,7 +463,7 @@
 
   .what2 {
     margin-left: 0;
-    width: 430px;
+    max-width: 430px 100%;
   }
 
   .dd {
@@ -484,34 +484,34 @@
   }
 
   .img {
-    width: 320px;
+    max-width: 320px 100%;
   }
 
   .img2 {
-    width: 250px;
+    max-width: 250px 100%;
     margin-left: -550px;
     margin-top: 180px;
   }
   .tt8 {
-    width: 430px;
-    height: 300px;
+    max-width: 430px 100%;
+    max-height: 300px 100%;
   }
   .what h1 {
     margin-top: 500px;
   }
   .what p {
     margin-left: 0;
-    width: 400px;
+    max-width: 400px 100%;
   }
   .take3 p {
-    width: 210px;
+    max-width: 210px 100%;
   }
 
   .take3 button {
     padding: 5px 15px;
   }
   .take {
-    width: 430px;
+    max-width: 430px 100%;
     margin-top: 00px;
     background: black;
     margin-left: 0;
@@ -519,8 +519,8 @@
   .top3 {
     display: flex;
     flex-wrap: wrap;
-    width: 430px;
-    height: 200px;
+    max-width: 430px 100%;
+    max-height: 200px 100%;
     gap: 20px;
   }
 
@@ -530,23 +530,24 @@
   }
 
   .top2 {
-    width: 250px;
+    max-width: 250px 100%;
   }
 }
 
 @media (max-width: 375px) {
   .top {
-    width: 200px;
+    max-width: 200px 100%;
   }
+ 
 
   .hero3 h2 {
     font-size: 20px;
-    width: 250px;
+    max-width: 250px 100%;
     font: optional;
   }
 
   .hero3 p {
-    width: 260px;
+    max-width: 260px 100%;
     margin-top: 0px;
   }
   .hero2 {
@@ -557,7 +558,7 @@
     margin-left: -10px;
   }
   .cart p {
-    width: 380px;
+    max-width: 380px 100%;
     margin-left: 40px;
   }
   .tor {
@@ -575,19 +576,19 @@
   }
 
   .rr {
-    width: 290px;
+    max-width: 290px 100%;
     margin-left: px;
   }
 
   .cart4 {
-    width: 250px;
-    height: 80px;
+    max-width: 250px 100%;
+    max-height: 80px 100%;
     margin-left: 20px;
     margin-top: -108px;
   }
 
   .take2 img {
-    width: 50px;
+    max-width: 50px 100%;
     margin-top: 80px;
     margin-left: -50px;
   }
@@ -600,12 +601,12 @@
   }
 
   .take {
-    width: 290px;
+    max-width: 290px 100%;
     margin-left: -15px;
   }
 
   .ttt {
-    width: 300px;
+    max-width: 300px 100%;
     margin-left: -10px;
   }
 
@@ -618,8 +619,8 @@
   }
 
   .one {
-    width: 130px;
-    height: 130px;
+    max-width: 130px 100%;
+    max-height: 130px 100%;
   }
   .one h1 {
     margin-left: -15px;
@@ -630,7 +631,7 @@
   }
 
   .img {
-    width: 200px;
+    max-width: 200px 100%;
   }
 
   .about3 {
@@ -642,12 +643,12 @@
   }
 
   .rrr {
-    width: 280px;
+    max-width: 280px 100%;
     margin-left: -160px;
   }
 
   .what2 p {
-    width: 270px;
+    max-width: 270px 100%;
     margin-left: 0;
   }
 
@@ -663,7 +664,7 @@
   }
 
   .social2 img {
-    width: 280px;
+    max-width: 280px 100%;
   }
 
   .foto2 h2 {
@@ -671,12 +672,12 @@
   }
 
   .foto3 img {
-    width: 270px;
+    max-width: 270px 100%;
     margin-top: -150px;
   }
   .foto {
-    width: 280px;
-    height: 650px;
+    max-width: 280px 100%;
+    max-height: 650px 100%;
     margin-left: -10px;
   }
 
@@ -686,7 +687,7 @@
   }
 
   .strel {
-    width: 270px;
+    max-width: 270px 100%;
   }
 
   .a a {
@@ -703,7 +704,7 @@
   }
 
   .what2 {
-    width: 280px;
+    max-width: 280px 100%;
     margin-left: -10px;
   }
   .two5 {
@@ -715,14 +716,14 @@
   }
 
   .what p {
-    width: 270px;
+    max-width: 270px 100%;
     margin-top: -10px;
   }
   .what h1 {
     margin-top: 280px;
   }
   .img2 {
-    width: 160px;
+    max-width: 160px 100%;
     margin-left: -490px;
     margin-top: 120px;
   }
@@ -733,18 +734,18 @@
   }
 
   .about2 p {
-    width: 280px;
+    max-width: 280px 100%;
     margin-left: 0;
   }
 
   .about2 h5 {
     font-size: 20px;
-    width: 280px;
+    max-width: 280px 100%;
   }
 
   .tt8 {
-    width: 290px;
-    height: 220px;
+    max-width: 290px 100%;
+    max-height: 220px 100%;
     margin-left: -15px;
     margin-top: -80px;
   }
@@ -759,7 +760,7 @@
   }
 
   .tor img {
-    width: 50px;
+    max-width: 50px 100%;
   }
   .cart2 {
     margin-top: 150px;
@@ -776,7 +777,7 @@
   }
 
   .find2 {
-    width: 280px;
+    max-width: 280px 100%;
     height: 350px;
   }
 
@@ -801,38 +802,32 @@
   .top3 {
     display: flex;
     flex-direction: column;
-    width: 260px;
-    height: 500px;
+    max-width: 260px 100%;
+    max-height: 500px 100%;
     margin-left: 0;
   }
 
   .top2 {
-    width: 150px;
+    max-width: 150px 100%;
     margin-left: -110px;
     margin-top: 120px;
   }
-  .hero {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: self-end;
-  }
+  
 }
 
 @media (max-width: 320px) {
   .top {
-    width: 200px;
+    max-width: 200px 100%;
   }
 
   .hero3 h2 {
     font-size: 20px;
-    width: 250px;
+    max-width: 250px 100%;
     font: optional;
   }
 
   .hero3 p {
-    width: 260px;
+    max-width: 260px 100%;
     margin-top: 0px;
   }
   .hero2 {
@@ -843,7 +838,7 @@
     margin-left: -10px;
   }
   .cart p {
-    width: 380px;
+    max-width: 380px 100%;
     margin-left: 40px;
   }
   .tor {
@@ -861,19 +856,19 @@
   }
 
   .rr {
-    width: 290px;
+    max-width: 290px 100%;
     margin-left: px;
   }
 
   .cart4 {
-    width: 250px;
-    height: 80px;
+    max-width: 250px 100%;
+    max-height: 80px 100%;
     margin-left: 20px;
     margin-top: -108px;
   }
 
   .take2 img {
-    width: 50px;
+    max-width: 50px 100%;
     margin-top: 80px;
     margin-left: -50px;
   }
@@ -886,12 +881,12 @@
   }
 
   .take {
-    width: 290px;
+    max-width: 290px 100%;
     margin-left: -15px;
   }
 
   .ttt {
-    width: 300px;
+    max-width: 300px 100%;
     margin-left: -10px;
   }
 
@@ -904,8 +899,8 @@
   }
 
   .one {
-    width: 130px;
-    height: 130px;
+    max-width: 130px 100%;
+    max-height: 130px 100%;
   }
   .one h1 {
     margin-left: -15px;
@@ -916,7 +911,7 @@
   }
 
   .img {
-    width: 200px;
+    max-width: 200px 100%;
   }
 
   .about3 {
@@ -928,12 +923,12 @@
   }
 
   .rrr {
-    width: 280px;
+    max-width: 280px 100%;
     margin-left: -160px;
   }
 
   .what2 p {
-    width: 270px;
+    max-width: 270px 100%;
     margin-left: 0;
   }
 
@@ -949,7 +944,7 @@
   }
 
   .social2 img {
-    width: 280px;
+    max-width: 280px 100%;
   }
 
   .foto2 h2 {
@@ -957,12 +952,12 @@
   }
 
   .foto3 img {
-    width: 270px;
+    max-width: 270px 100%;
     margin-top: -150px;
   }
   .foto {
-    width: 280px;
-    height: 650px;
+    max-width: 280px 100%;
+    max-height: 650px 100%;
     margin-left: -10px;
   }
 
@@ -972,7 +967,7 @@
   }
 
   .strel {
-    width: 270px;
+    max-width: 270px 100%;
   }
 
   .a a {
@@ -989,7 +984,7 @@
   }
 
   .what2 {
-    width: 280px;
+    max-width: 280px 100%;
     margin-left: -10px;
   }
   .two5 {
@@ -1001,14 +996,14 @@
   }
 
   .what p {
-    width: 270px;
+    max-width: 270px 100%;
     margin-top: -10px;
   }
   .what h1 {
     margin-top: 280px;
   }
   .img2 {
-    width: 160px;
+    max-width: 160px 100%;
     margin-left: -490px;
     margin-top: 120px;
   }
@@ -1019,18 +1014,18 @@
   }
 
   .about2 p {
-    width: 280px;
+    max-width: 280px 100%;
     margin-left: 0;
   }
 
   .about2 h5 {
     font-size: 20px;
-    width: 280px;
+    max-width: 280px 100%;
   }
 
   .tt8 {
-    width: 290px;
-    height: 220px;
+    max-width: 290px 100%;
+    max-height: 220px 100%;
     margin-left: -15px;
     margin-top: -80px;
   }
@@ -1045,7 +1040,7 @@
   }
 
   .tor img {
-    width: 50px;
+    max-width: 50px 100%;
   }
   .cart2 {
     margin-top: 150px;
@@ -1062,8 +1057,8 @@
   }
 
   .find2 {
-    width: 280px;
-    height: 350px;
+    max-width: 280px 100%;
+    max-height: 350px 100%;
   }
 
   .find2 p {
@@ -1087,13 +1082,13 @@
   .top3 {
     display: flex;
     flex-direction: column;
-    width: 260px;
-    height: 500px;
+    max-width: 260px 100%;
+    max-height: 500px 100%;
     margin-left: 0;
   }
 
   .top2 {
-    width: 150px;
+    max-width: 150px 100%;
     margin-left: -110px;
     margin-top: 120px;
   }
