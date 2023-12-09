@@ -538,7 +538,6 @@
   .top {
     max-width: 200px 100%;
   }
- 
 
   .hero3 h2 {
     font-size: 20px;
@@ -812,10 +811,10 @@
     margin-left: -110px;
     margin-top: 120px;
   }
-  
 }
 
 @media (max-width: 320px) {
+  
   .top {
     max-width: 200px 100%;
   }
@@ -973,7 +972,9 @@
   .a a {
     margin-left: 20px;
   }
-
+  .rrr {
+    display: none;
+  }
   .car {
     display: flex;
     flex-direction: column;
@@ -989,6 +990,9 @@
   }
   .two5 {
     margin-left: -140px;
+  }
+  .img {
+    max-width: 390px 100%;
   }
 
   .two2 {
