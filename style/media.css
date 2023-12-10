@@ -151,6 +151,10 @@
     align-items: center;
   }
 
+  .find h1 {
+    margin-top: 180px;
+  }
+
   .hero2 {
     margin-left: -160px;
   }
@@ -171,11 +175,11 @@
   }
 
   .tt2 {
-    max-height: 80px 100%;
+    height: 80px 100%;
     display: flex;
     margin-left: 250px;
     border-radius: 20px;
-    margin-top: -70px;
+    margin-top: -0px;
   }
   .find p {
     margin-left: 80px;
@@ -200,18 +204,19 @@
     display: none;
   }
   .take3 {
-    margin-left: -320px;
+    margin-left: -450px;
     margin-top: 120px;
   }
   .ttt {
-    margin-left: 114px;
-    margin-top: 56px;
-    max-width: 400px 100%;
-    max-height: 400px 100%;
+    display: none;
+    margin-left: -114px;
+    max-width: 00px 100% ;
+    max-height: 40px 100%;
   }
   .tt8 {
-    max-width: 710px 100%;
+    max-width: 750px 100%;
     max-height: 350px 100%;
+
   }
   .take3 h1 {
     font-size: 10;
@@ -219,7 +224,7 @@
 
   .take3 h2 {
     font-size: 24px;
-    max-width: 220px 100%;
+    max-width: 220px;
 
     margin-top: -10px;
   }
@@ -227,7 +232,8 @@
     font-size: 16px;
     margin-top: -10px;
     font-size: 10px;
-    max-width: 250px 100%;
+    max-width: 250px;
+    color: black;
   }
 
   .take3 button {
@@ -276,8 +282,6 @@
   }
   .foto {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     max-width: 700px 100%;
     padding: 20px 20px;
     margin-left: 5px;
@@ -329,6 +333,10 @@
 
   .two2 {
     margin-left: 200px;
+  }
+
+  .rrr {
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -814,7 +822,6 @@
 }
 
 @media (max-width: 320px) {
-  
   .top {
     max-width: 200px 100%;
   }
@@ -943,7 +950,7 @@
   }
 
   .social2 img {
-    max-width: 280px 100%;
+    max-width: 270px 100%;
   }
 
   .foto2 h2 {
